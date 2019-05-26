@@ -31,24 +31,25 @@ nav ul li a{
 
 <!--Parallax-->
 <div class="parallax-container">
-  <div class="parallax">
-    <a href="/"><img src="/img/banner.jpg"></a>
-    <p>BRT </p>
-  </div>
-</div>
- 
+      <div class="parallax">
+      <img src="https://github.com/Brettplz/brettplz.github.io/blob/master/img/banner.jpg?raw=true">
+        
+      </div>
+    </div>
+
      
-  <p> dkjashfjklhdskjhfbsdfjhdskjlfhjdkslhfdsjhkfbds </p>
+     
 
   
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script> 
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-        $('.parallax').parallax();
-      }
+ document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
      </script>
+     
 </body>
 </html>
