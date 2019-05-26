@@ -19,9 +19,7 @@ nav ul li a{
     
 </head>  
 <main>
-
   <nav>
- 
     <div class="nav-wrapper white black-text">
       <a href="#" class="brand-logo black-text">Manning Carpentry Limited</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -32,28 +30,28 @@ nav ul li a{
     </div>
   </nav>
         
+        <p>ahjskdjkashkahsdfdsfdsfdsfdsjhfkdsjfhjkdshfkljdshflkdsjhfd</p>
 
 <!--Parallax-->
 <div class="parallax-container">
   <div class="parallax">
-    <img src="/img/banner.jpg" alt="" class="responsive-img">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Claw-hammer.jpg" alt="" class="responsive-img">
     
   </div>
 </div>
  
      
      
-<h1></h1>
-<p></p>
+
   
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script> 
-       document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, options);
-  });
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+      }
      </script>
 </body>
 </html>
